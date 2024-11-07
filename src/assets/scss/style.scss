@@ -1,3 +1,7 @@
 $primary: #ff0000;
 
+.nav-link.active {
+	font-weight: bold;
+}
+
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
