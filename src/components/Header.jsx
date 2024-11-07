@@ -1,6 +1,6 @@
 const Header = () => {
 	return (
-		<nav className="navbar navbar-expand-lg bg-body-tertiary">
+		<nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
 			<div className="container-fluid px-5 py-2">
 				<a className="navbar-brand d-flex fs-4 fw-bold fst-italic gap-3 align-items-center" href="#">
 					<img src="../../public/logo.png" alt="√" width={160} height={160} style={{ width: "45px", height: "45px" }} />
@@ -34,6 +34,11 @@ const Header = () => {
 						<li className="nav-item">
 							<a className="nav-link" aria-disabled="true">
 								Contact Us
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" aria-disabled="true">
+								Login
 							</a>
 						</li>
 					</ul>
