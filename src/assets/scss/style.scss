@@ -1,5 +1,9 @@
 $primary: #ff0000;
 
+.nav-link {
+	text-decoration: none !important;
+}
+
 .nav-link.active {
 	font-weight: bold;
 }
