@@ -1,5 +1,7 @@
+import Header from "./components/Header";
+
 const App = () => {
-	return <h1 className="text-primary">App</h1>;
+	return <Header />;
 };
 
 export default App;
