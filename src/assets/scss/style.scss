@@ -1,11 +1,22 @@
-$primary: #ff0000;
+$primary: #3f7dc9;
 
 .nav-link {
 	text-decoration: none !important;
+	transition: all 2s ease-in-out;
 }
 
 .nav-link.active {
-	font-weight: bold;
+	font-weight: bolder;
+	color: white;
+}
+
+.nav-item {
+	border-bottom: 1px solid transparent;
+	transition: all 0.5s ease-in-out;
+}
+
+.nav-item.active {
+	border-color: white;
 }
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
