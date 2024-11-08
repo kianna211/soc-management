@@ -1,4 +1,18 @@
-$primary: #3f7dc9;
+$primary: #133e87;
+$secondary: #608bc1;
+$info: #cbdceb;
+
+$box-shadow: 0 0.5rem 1rem rgba($primary, 0.15);
+$box-shadow-lg: 0 1rem 3rem rgba($primary, 0.175);
+
+body,
+html {
+	background-color: #f3f3e0;
+}
+
+.bg-main {
+	background-color: #f3f3e0;
+}
 
 .nav-link {
 	text-decoration: none !important;
@@ -7,7 +21,7 @@ $primary: #3f7dc9;
 
 .nav-link.active {
 	font-weight: bolder;
-	color: white;
+	color: #133e87;
 }
 
 .nav-item {
@@ -16,7 +30,18 @@ $primary: #3f7dc9;
 }
 
 .nav-item.active {
-	border-color: white;
+	border-color: #133e87;
+}
+
+.form-dlg {
+	top: -25px !important;
+	width: 46% !important;
+	height: 350px !important;
+	box-shadow: 1px 1px 1px 2px #c2d1e47f;
+}
+
+.transition {
+	transition: all 0.4s ease-in-out;
 }
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
