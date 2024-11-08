@@ -12,7 +12,7 @@ const Header = () => {
 	const location = useLocation();
 
 	return (
-		<nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+		<nav className="navbar navbar-expand-lg bg-main shadow-sm">
 			<div className="container-fluid px-5 py-2">
 				<Link className="navbar-brand d-flex fs-4 fw-bold fst-italic gap-3 align-items-center" to="/">
 					<img src="/logo.png" alt="√" width={160} height={160} style={{ width: "45px", height: "45px" }} />
@@ -36,7 +36,7 @@ const Header = () => {
 						))}
 						<li className="nav-item d-flex gap-0">
 							<Link className="nav-link" to="/auth">
-								<button className={`btn text-white py-2 px-3 ${location.pathname == "/auth" ? "btn-primary" : "btn-outline-primary"}`}>Get Started</button>
+								<button className={`btn py-2 px-3 ${location.pathname == "/auth" ? "btn-primary" : "btn-outline-primary"}`}>Get Started</button>
 							</Link>
 						</li>
 					</ul>
